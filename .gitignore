@@ -1,0 +1,3 @@
+server/node_modules
+server/scripts/srv/pid
+server/scripts/srv/data/shop.dump

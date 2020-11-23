@@ -1,0 +1,15 @@
+{
+  "name": "node-api-postgres",
+  "version": "1.0.0",
+  "description": "RESTful API with Node.js, Express, and PostgreSQL",
+  "main": "server-app.js",
+  "license": "MIT",
+  "scripts": {
+    "push:db": "cd scripts &&  ./pushdatabase.sh"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "pg": "^8.4.2"
+  }
+}
