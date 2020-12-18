@@ -45,7 +45,7 @@ return niet uitgevoerd.
 * [w3schools](https://w3shools.com) - extra javascript informatie
 * [p5js](https://p5js.org/reference) - naslagmateriaal
 * [Arduino](https://www.arduino.cc/reference) - naslagmateriaal
-* [Arduinio-lessen](http://arduino-lessen.nl) - lessen die je 5V heb gezien
+* [Arduino-lessen](http://arduino-lessen.nl) - lessen die je 5V heb gezien
 * [Seeed wiki](https://wiki.seeedstudio.com/Grove/) - informatie over evt. Grove modules
 * [Arduino Wifi board gebruiksklaar maken](https://www.arduino.cc/en/Guide/ArduinoUnoWiFiRev2)
 * [Arduino Wifi voorbeelden](https://www.arduino.cc/en/Reference/WiFiNINA)
