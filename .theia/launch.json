@@ -6,9 +6,17 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Launch Knikkerbaan server",
       "program": "${workspaceFolder}/server/server-app.js",
       "openDebug": "openOnSessionStart",
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Herbouw de Database",
+      "program": "${workspaceFolder}/server/scripts/rebuildDB.js",
+      "openDebug": "neverOpen",
       "internalConsoleOptions": "openOnSessionStart"
     }
   ]

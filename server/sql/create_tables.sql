@@ -1,6 +1,3 @@
-DROP TABLE IF EXISTS baanStatus;
-DROP TABLE IF EXISTS buttonPresses;
-
 CREATE TABLE baanStatus (
   ID SERIAL PRIMARY KEY,
   status INTEGER NOT NULL,

@@ -2,11 +2,14 @@ image:
   file: .gitpod.Dockerfile
 ports:
   - port: 3000
+    onOpen: open-browser
+  - port: 3001
 
 # Command to start on workspace startup (optional)
 tasks:
   - init: |
       psql < server/sql/bootstrap_db.sql
+      psql --username=api  knikkerbaan < server/sql/delete_all_tables.sql
       psql --username=api  knikkerbaan < server/sql/create_tables.sql
       psql --username=api  knikkerbaan < server/sql/seed.sql
   - command: cd server && yarn config set script-shell /bin/bash && yarn install #&& node index.js 

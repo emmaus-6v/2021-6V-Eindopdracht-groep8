@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "label": "Bouw database opnieuw",
+      "type": "shell",
+      "command": "psql --username=api  knikkerbaan < server/sql/delete_all_tables.sql && psql --username=api  knikkerbaan < server/sql/create_tables.sql && psql --username=api  knikkerbaan < server/sql/seed.sql && echo 'Database is opnieuw opgebouwd!'",
+      "problemMatcher": []
+    },
+    {
+      "label": "Interactieve DB",
+      "type": "shell",
+      "command": "psql -d knikkerbaan -U api -W",
+      "problemMatcher": []
+    }
+  ]
+}
