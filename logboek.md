@@ -17,6 +17,21 @@ Uitgevoerd: server account + database/server uitlegvideos
 
 ---
 
+Datum: 27-02-2021
+Leerling: Edwin Cheng
+Uitgevoerd: Code Arduino LEDs
+
+---
+
 Datum: 28-02-2021
 Leerling: Roel Linde
 Uitgevoerd: database, queries proberen. 
+
+---
+
+Datum 28-02-2021
+Leerling: Edwin Cheng
+Uitgevoerd: Code Arduino WiFi verbinding
+
+---
+
