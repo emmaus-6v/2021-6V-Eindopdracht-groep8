@@ -9,3 +9,8 @@ CREATE TABLE buttonPresses (
   ID SERIAL PRIMARY KEY,
   tijd TIMESTAMP WITH TIME ZONE NOT NULL
 );
+
+CREATE TABLE aantalBalletjes (
+  ID SERIAL PRIMARY KEY,
+); 
+
