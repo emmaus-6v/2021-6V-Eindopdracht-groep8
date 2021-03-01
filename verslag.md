@@ -33,7 +33,7 @@ Ons communicatieprotocol werkt zo:
 
 
 ## Reflectie
-#### --leerling1--
+#### --Thom van Dijk--
 Ik vond dit project een hele lastige, ik kwam er ook heel slecht uit. Naar mate het jaar vorderde bleef er nog steeds veel onduidelijk en tijd vinden om aan dit project te besteden was ook niet veel te vinden. Ik heb veel geprobeerd te kijken naar mijn eigen deel, maar kon daar helaas niet uitkomen. Ik vind dat we dit zowel individueel als groep beter hadden moeten communiceren.
 
 #### --leerling2--
