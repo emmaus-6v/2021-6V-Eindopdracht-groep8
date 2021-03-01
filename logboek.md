@@ -23,6 +23,12 @@ Uitgevoerd: Code Arduino LEDs
 
 ---
 
+Datum 28-02-2021
+Leerling: Thom van Dijk
+Uitgevoerd: Nogmaal proberen te begrijpen widget, commit werkt niet
+
+---
+
 Datum: 28-02-2021
 Leerling: Roel Linde
 Uitgevoerd: database, queries proberen. 
