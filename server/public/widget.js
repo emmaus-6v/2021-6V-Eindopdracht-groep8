@@ -107,7 +107,7 @@ function ToevoegenKnikker() {
  */
 function setup() {
   // Maak het canvas van je widget
-  createCanvas(480, 200);
+  createCanvas(1920, 1080);
 
   button = createButton('Voeg een knikker erbij!');
   button.position(120, 15);
