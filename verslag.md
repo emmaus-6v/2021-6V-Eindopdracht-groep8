@@ -5,10 +5,8 @@
 In dit verslag laten wij zien hoe onze knikkerbaan zou moeten werken en hoe we dit hebben geprobeerd te realiseren. 
 
 
-
 ## Idee
 Ons idee was om een knikkerbaan te maken die doormiddel van een infraroodstraal kon herkennen hoeveel balletjes er over de baan zijn gegaan. 
-
 
 
 ## Planning en daadwerkelijke uitvoering
