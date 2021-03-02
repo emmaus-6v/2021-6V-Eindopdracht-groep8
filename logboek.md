@@ -41,3 +41,14 @@ Uitgevoerd: Code Arduino WiFi verbinding
 
 ---
 
+Datum 02-03-2021
+Leerling: Junda Qiu
+Uitgevoerd: Widget, server en database aangepast
+
+---
+
+Datum: 02-03-2021
+Leerling: Edwin Cheng
+Uitgevoerd: Widget, server en database aangepast
+
+---
