@@ -22,9 +22,8 @@ app.use(express.static(path.join(__dirname, '/public')));
 // ⬇︎ HIER JE EIGEN AANPASSINGEN MAKEN ⬇︎
 app.get('/', (_request, response) => {response.redirect('index.html'); })
 app.get('/api/checkchanges/:widgetTimeStamp', checkChanges);
-app.get('/api/addButtonPress', addButtonPress);
-app.get('/api/getTotalPresses', getTotalPresses);
-app.get('/api/setKnikkerbaanStatus/:newStatus', setKnikkerbaanStatus);
+app.get('/api/ToevoegenKnikker', ToevoegenKnikker);
+app.get('/api/getAantalKnikkers', getAantalKnikkers);
 
 
 // start de server en geef een berichtje in de console dat het gelukt is!
@@ -80,7 +79,7 @@ function checkChanges(_request, response) {
   var lastWidgetChange = new Date();
   lastWidgetChange.setTime(_request.params.widgetTimeStamp);
   pool.query(`SELECT *
-                FROM (SELECT tijd FROM buttonPresses) AS alleTijden
+                FROM (SELECT tijd FROM AantalKnikkers) AS alleTijden
                 WHERE tijd > $1`,
                 [lastWidgetChange], (error, results) => {
                   if (error) {
@@ -99,53 +98,35 @@ function checkChanges(_request, response) {
 
 
 /**
- * addButtonPress
+ * ToevoegenKnikker
  * 
- * voegt een nieuwe row toe aan tabel "buttonPresses"
+ * voegt een nieuwe row toe aan tabel "Knikkers"
  * en geeft de id van de nieuwe regel terug in de reponse
  * @param _request het webrequest dat deze bewerking startte
  * @param response het antwoord dat teruggegeven gaat worden.
  */
-function addButtonPress(_request, response) {
-  pool.query("INSERT INTO buttonPresses (tijd) VALUES (CURRENT_TIMESTAMP) RETURNING ID", (error, results) => {
+function ToevoegenKnikker(_request, response) {
+  pool.query("INSERT INTO Knikkers (tijd) VALUES (CURRENT_TIMESTAMP) RETURNING ID", (error, results) => {
     if (error) {
       throw error;
     }
-    response.status(201).send(`ButtonPress added with ID: ${results.rows[0].id}`);
+    response.status(201).send(`Knikkers added with ID: ${results.rows[0].id}`);
   });
 }
 
 
 /**
- * getTotalPresses
+ * getAantalKnikkers
  * 
- * geeft de waarde van "ButtonPresses" uit de tabel algemeen terug in de respons
+ * geeft de waarde van "Knikkers" uit de tabel algemeen terug in de respons
  * @param _request het webrequest dat deze bewerking startte
  * @param response het antwoord dat teruggegeven gaat worden.
  */
-function getTotalPresses(_request, response){
-  pool.query("SELECT COUNT(*) AS totalButtonPresses, MAX(tijd) as lastTimeStamp  FROM buttonPresses;", (error, results) => {
+function getAantalKnikkers(_request, response){
+  pool.query("SELECT COUNT(*) AS AantalKnikkers, MAX(tijd) as lastTimeStamp  FROM Knikkers;", (error, results) => {
     if (error) {
       throw error;
     }
     response.status(200).json(results.rows[0]);
-  });
-}
-
-
-/**
- * setKnikkerbaanStatus
- * 
- * verandert de status in de waarde zoals meegegeven in het request
- * @param _request het webrequest dat deze bewerking startte
- * @param response het antwoord dat teruggegeven gaat worden.
- */
-function setKnikkerbaanStatus(_request, response) {
-  const newStatus = parseInt(_request.params.newStatus);
-  pool.query("INSERT INTO baanStatus (status, tijd, opmerking) VALUES ($1, CURRENT_TIMESTAMP, $2)", [newStatus, comment], (error, results) => {
-    if (error) {
-      throw error;
-    }
-    response.status(201).send("Status has been modified");
   });
 }

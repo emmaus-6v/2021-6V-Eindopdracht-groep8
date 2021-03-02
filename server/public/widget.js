@@ -1,7 +1,9 @@
 var achtergrondPlaatje;
 var laatsteUpdateTimeStamp;
 var button;
-var numberOfButtonPresses = 0;
+var AantalKnikkers = 0;
+var myFont = createFont("Georgia");
+
 
 /**
  * preload
@@ -11,7 +13,7 @@ var numberOfButtonPresses = 0;
  * door de browser die je widget opent
  */
 function preload() {
-  achtergrondPlaatje = loadImage('images/voorbeeld.jpg');
+  achtergrondPlaatje = loadImage('images/Knikker.jpg');
 }
 
 
@@ -30,7 +32,7 @@ function checkForDatabaseChanges() {
         console.log("Server geeft aan dat de database een update heeft die widget nog niet heeft");
 
         // roep ander update functie(s) aan:
-        getTotalPresses();
+        getAantalKnikkers();
       }
       else {
         // je kunt de code hieronder aanzetten, maar krijgt dan wel iedere seconde een melding
@@ -51,15 +53,15 @@ function checkForDatabaseChanges() {
  * getTotalPresses
  * Vraagt het totaal aantal buttonPresses op
  */
-function getTotalPresses() {
+function getAantalKnikkers() {
   // zet het serverrequest in elkaar
   var request = new XMLHttpRequest()
-  request.open('GET', '/api/getTotalPresses', true)
+  request.open('GET', '/api/getAantalKnikkers', true)
   request.onload = function () {
     var data = JSON.parse(this.response);
     if (request.status >= 200 && request.status < 400) {
-      console.log(`Totaal aantal buttonPresses = ${data.totalbuttonpresses} `);
-      numberOfButtonPresses = data.totalbuttonpresses;
+      console.log(`Totaal aantal knikkers = ${data.AantalKnikkers} `);
+      AantalKnikkers = data.AantalKnikkers;
       var newTimeStamp = new Date(data.lasttimestamp).getTime()+1;
 
       // update indien nodig de timestamp
@@ -79,13 +81,13 @@ function getTotalPresses() {
 }
 
 
-function buttonPressed() {
+function ToevoegenKnikker() {
   // zet het serverrequest in elkaar
   var request = new XMLHttpRequest()
-  request.open('GET', '/api/addButtonPress', true)
+  request.open('GET', '/api/ToevoegenKnikker', true)
   request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
-      console.log('ButtonPress doorgegeven aan server');
+      console.log('Knikker doorgegeven aan server');
     }
     else {
         console.log("bleh, server reageert niet zoals gehoopt");
@@ -107,9 +109,9 @@ function setup() {
   // Maak het canvas van je widget
   createCanvas(480, 200);
 
-  button = createButton('Klik op deze knop!');
+  button = createButton('Voeg een knikker erbij!');
   button.position(120, 15);
-  button.mouseClicked(buttonPressed);
+  button.mouseClicked(ToevoegenKnikker);
 
 
   // zet timeStamp op lang geleden zodat we alle recente info binnenkrijgen
@@ -131,6 +133,12 @@ function draw() {
   // verwijder deze achtergrond en creëer je eigen widget
 
   image(achtergrondPlaatje, 0, 0, 480, 200);
-  fill(255, 255, 255);
-  text("Aantal keer geklikt:" + numberOfButtonPresses, 250, 30);
+
+  textFont(myFont, 42);
+  text("Knikkerbaan 8", 50, 50);
+  fill(0, 0, 0);
+
+  textFont(myFont, 21);
+  text("Aantal knikkers" + AantalKnikkers, 75, 100);
+  fill(0, 0, 0);
 }
