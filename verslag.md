@@ -1,7 +1,5 @@
 # Verslag eindopdracht 6V
-### gemaakt door --leerling1--, --leerling2--, etc
-
-Roel Linde, Isis Korevaar, Thom van Dijk, Edwin Cheng, Remco Bechtold, Tim Jansen en Junda Qui
+### gemaakt door Roel Linde, Isis Korevaar, Thom van Dijk, Edwin Cheng, Remco Bechtold, Tim Jansen en Junda Qui
 
 ## Inleiding
 In dit verslag laten wij zien hoe onze knikkerbaan zou moeten werken en hoe we dit hebben geprobeerd te realiseren. 
@@ -26,7 +24,7 @@ Isis en Remco hebben samen de knikkerbaan gebouwt en de arduino gemonteerd. info
 
 Eind januari en begin Februari hebben Edwin en Roel gewerkt aan de server en de database. Het bleek echter erg moeilijk om de Database en de server te koppelen en dit is ons dus ook niet gelukt.
 
-Thom maken widget.....
+In de voorjaarsvakantie is Thom begonnen aan de widget. Na hier uren naar de staren zonder actie te kunnen overnemen is er hulp gevraagd, maar ook hier kwam weinig van uit. De widget is dus niet af en functioneert niet zoals gehoopt. In de widget had informatie over het aantal balletjes gemeten met de infraroodsensor moeten komen.
 
 Junda....
 
