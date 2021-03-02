@@ -4,7 +4,7 @@
 Roel Linde, Isis Korevaar, Thom van Dijk, Edwin Cheng, Remco Bechtold, Tim Jansen en Junda Qui
 
 ## Inleiding
-In dit verslag laten wij zien hoe onze knikkerbaan zou moeten werken en wat we er aan gedaan hebben. 
+In dit verslag laten wij zien hoe onze knikkerbaan zou moeten werken en hoe we dit hebben geprobeerd te realiseren. 
 
 
 
@@ -22,11 +22,15 @@ Omdat knikkers licht in gewicht zijn kon dit helaas niet doorgaan.
 
 Midden Januari kwamen we op het idee om een bewegingssensor te gebruiken om zo alsnog te kunnen meten of er een knikkertje langs is gekomen. 
 Dit plan werd later gewijzigd toen we hoorden dat er ook gebruik gemaakt kon worden van een ifraroodsensor. 
-informatie van de bouw.... 
+Isis en Remco hebben samen de knikkerbaan gebouwt en de arduino gemonteerd. informatie van de bouw.... 
 
+Eind januari en begin Februari hebben Edwin en Roel gewerkt aan de server en de database. Het bleek echter erg moeilijk om de Database en de server te koppelen en dit is ons dus ook niet gelukt.
 
+Thom maken widget.....
 
+Junda....
 
+Tim... 
 
 ## Technische verantwoording
 Ons communicatieprotocol werkt zo:
