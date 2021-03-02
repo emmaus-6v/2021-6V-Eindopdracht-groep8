@@ -24,7 +24,9 @@ Eind januari en begin Februari hebben Edwin en Roel gewerkt aan de server en de 
 
 In de voorjaarsvakantie is Thom begonnen aan de widget. Na hier uren naar de staren zonder actie te kunnen overnemen is er hulp gevraagd, maar ook hier kwam weinig van uit. De widget is dus niet af en functioneert niet zoals gehoopt. In de widget had informatie over het aantal balletjes gemeten met de infraroodsensor moeten komen.
 
-Junda....
+Eind januari en begin februari heeft Junda zelf gekeken naar hoe een server werkt met onder andere behulp van de video's Cammeraat en zelfstudie en begin Maart hebben Edwin en Junda geprobeerd de server en widget af te ronden. 
+
+Edwin en Junda hebben de server, widget en database geprobeerd te verbinden, maar weten niet zeker of dit werkt. Sinds we het niet kunnnen uitproberen, omdat niet alle bijbehorende delen er zijn.
 
 Tim... 
 
@@ -41,6 +43,8 @@ Ik vond dit project een hele lastige, ik kwam er ook heel slecht uit. Naar mate 
 Ik vond het idee van het project erg leuk maar al snel kwamen we erachter dat het veel moeilijker was dan gedacht. Onze eerste ideeen waren niet haalbaar en doordat we elkaar grotendeels niet zagen omdat ons groepje verdeeld is over twee klassen ging er al snel tijd verloren. Uiteindelijk ben ik wel trots dat we nog iets hebben kunnen maken waarvan we kunnen zeggen dit hebben we gedaan. Maar overall vind ik het wel jammer dat we niet een meester project hebben kunnen leveren.  
 
 #### --Edwin Cheng--
+Het project was heel onduidelijk en daardoor ook moeilijke te begrijpen en maken. Ik denk niet dat wij de enige waren die dit vonden, omdat ik van meerdere groepen dezelfde reactie kreeg. 
+Toch heb ik van alles geprobeerd, maar weet ik alsnog niet of het werkt. Ik vond het in het algemeen een leuk project om met zijn allen te doen, maar door de coronacrisis kregen we weinig informatie en konden we weinig communiceren. :D
 
 
 #### --Isis Korevaar--
@@ -52,7 +56,10 @@ Ik vond het idee van het project erg leuk maar al snel kwamen we erachter dat he
 #### --Tim Jansen-- 
 
 
-#### --Junda QUi--
-
+#### --Junda Qiu--
+Ik vond het project erg lastig en vooral in deze tijden waarin het moeilijk is om veel contact te hebben. Ook vond ik het project veel lastiger in vergelijking met de eindprojecten van voorgaande jaren.
+Ik heb ook om advies gevraagd aan mijn vrienden die in hun eerste en tweede jaar hbo zitten en zelf die snapten servers etc. niet volledig. Ook waren er ook verbeterpunten op het gebied van communicatie omdat onze klas
+verdeeld was over 2 klassen waardoor momenten voor samenwerking nogal moeilijk was om voor elkaar te krijgen. Verder vond ik het een leuke en creatieve project met veel potentie die leuk zou kunnen zijn voor de leerling
+alleen was de situatie er ongunstig voor door corona. :D
 
 ## Slot
