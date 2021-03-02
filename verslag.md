@@ -1,29 +1,30 @@
 # Verslag eindopdracht 6V
 ### gemaakt door --leerling1--, --leerling2--, etc
 
----
+Roel Linde, Isis Korevaar, Thom van Dijk, Edwin Cheng, Remco Bechtold, Tim Jansen en Junda Qui
 
 ## Inleiding
-Lorem ipsum...
+In dit verslag laten wij zien hoe onze knikkerbaan zou moeten werken en wat we er aan gedaan hebben. 
 
 
 
 ## Idee
-Ons idee was om een knikkerbaan te maken die...
-(gebruik gerust plaatjes)
+Ons idee was om een knikkerbaan te maken die doormiddel van een infraroodstraal kon herkennen hoeveel balletjes er over de baan zijn gegaan. 
 
 
 
 ## Planning en daadwerkelijke uitvoering
 Onze opdracht is als volgt gepland:
 
-### sprint 3
+Het duuurde voor ons groepje even voordat we opgang gekomen waren aagezien we een te complexe knikkerbaan voor ogen hadden. 
+We wilden namelijk eerst een knikkerbaan maken met een veer, als de veer dan ingedrukt zou worden door een balletje dan zou de widget aangeven dat er een balletje langs was gegaan. 
+Omdat knikkers licht in gewicht zijn kon dit helaas niet doorgaan. 
 
-### sprint 4
+Midden Januari kwamen we op het idee om een bewegingssensor te gebruiken om zo alsnog te kunnen meten of er een knikkertje langs is gekomen. 
+Dit plan werd later gewijzigd toen we hoorden dat er ook gebruik gemaakt kon worden van een ifraroodsensor. 
+informatie van de bouw.... 
 
-### sprint 5
 
-### sprint 6
 
 
 
@@ -36,9 +37,22 @@ Ons communicatieprotocol werkt zo:
 #### --Thom van Dijk--
 Ik vond dit project een hele lastige, ik kwam er ook heel slecht uit. Naar mate het jaar vorderde bleef er nog steeds veel onduidelijk en tijd vinden om aan dit project te besteden was ook niet veel te vinden. Ik heb veel geprobeerd te kijken naar mijn eigen deel, maar kon daar helaas niet uitkomen. Ik vind dat we dit zowel individueel als groep beter hadden moeten communiceren.
 
-#### --leerling2--
-Ik kijk terug op...
+#### --Roel linde--
+Ik vond het idee van het project erg leuk maar al snel kwamen we erachter dat het veel moeilijker was dan gedacht. Onze eerste ideeen waren niet haalbaar en doordat we elkaar grotendeels niet zagen omdat ons groepje verdeeld is over twee klassen ging er al snel tijd verloren. Uiteindelijk ben ik wel trots dat we nog iets hebben kunnen maken waarvan we kunnen zeggen dit hebben we gedaan. Maar overall vind ik het wel jammer dat we niet een meester project hebben kunnen leveren.  
 
+#### --Edwin Cheng--
+
+
+#### --Isis Korevaar--
+
+
+#### --Remco Bechtold--
+
+
+#### --Tim Jansen-- 
+
+
+#### --Junda QUi--
 
 
 ## Slot
