@@ -132,13 +132,12 @@ function draw() {
   // nu wordt slechts een voorbeeld als plaatje getoond
   // verwijder deze achtergrond en creëer je eigen widget
 
-  image(achtergrondPlaatje, 0, 0, 480, 200);
-
+  image(achtergrondPlaatje, 0, 0, 1920, 1080);
   textFont(myFont, 42);
+  fill(255, 255, 255);
   text("Knikkerbaan 8", 50, 50);
-  fill(0, 0, 0);
 
   textFont(myFont, 21);
-  text("Aantal knikkers" + AantalKnikkers, 75, 100);
-  fill(0, 0, 0);
+  fill(255,255, 255);
+  text("Aantal knikkers" + AantalKnikkers, 250, 30);
 }
