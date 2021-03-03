@@ -10,43 +10,49 @@ Leerling: Edwin Cheng + Roel Linde
 Uitgevoerd: erachter komen hoe de server en de database werken
 
 ---
-
 Datum: 09-02-2021
 Leerling: Edwin Cheng + Roel Linde
 Uitgevoerd: server account + database/server uitlegvideos
 
 ---
+Datum 21-02-2021
+Leerling: Remco Bechtold + Isis Korevaar 
+Uitgevoerd: Plank in elkaar gezet en afgemeten, deel 1
 
+---
+Datum 22-02-2021
+Leerling: Remco Bechtold + Isis Korevaar
+Uitgevoerd: Plank geschilderd en de onderdelen afgemeten om er in te boren, obstakels aangemaakt en de bouw afgemaakt.
+
+---
 Datum: 27-02-2021
 Leerling: Edwin Cheng
 Uitgevoerd: Code Arduino LEDs
 
 ---
-
 Datum 28-02-2021
 Leerling: Thom van Dijk
 Uitgevoerd: Nogmaal proberen te begrijpen widget, commit werkt niet
 
 ---
-
 Datum: 28-02-2021
 Leerling: Roel Linde
 Uitgevoerd: database, queries proberen. 
 
 ---
-
 Datum 28-02-2021
 Leerling: Edwin Cheng
 Uitgevoerd: Code Arduino WiFi verbinding
 
 ---
+Datum 28-02-2021
 
+---
 Datum 02-03-2021
 Leerling: Junda Qiu
 Uitgevoerd: Widget, server en database aangepast
 
 ---
-
 Datum: 02-03-2021
 Leerling: Edwin Cheng
 Uitgevoerd: Widget, server en database aangepast
