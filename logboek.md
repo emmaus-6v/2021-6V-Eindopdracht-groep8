@@ -7,6 +7,7 @@ Uitgevoerd: ideeën bedacht voor de knikkerbaan, in de vorm van een flipperkast.
 ---
 Datum in november 
 Leerling: Isis Korevaar
+Uitgevoerd: De schetsen getekend. Onderzoek gedaan naar de uitvoering.
 
 ---
 Datum: 22-02-2021
