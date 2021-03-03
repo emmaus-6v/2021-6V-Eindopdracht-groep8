@@ -70,7 +70,7 @@ Leerling: Isis Korevaar met behulp van Remco Bechtold
 Uitgevoerd: Code geschreven voor de IR BeamBreak sensor. 
 
 ---
-Datum 02-02-2021
+Datum 02-03-2021
 Leerling: Isis Korevaar
 Uitgevoerd: Verschillende Arduino codes samengevoegd en uitgebreid. 
 
