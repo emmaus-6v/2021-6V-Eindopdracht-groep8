@@ -48,7 +48,7 @@ Toch heb ik van alles geprobeerd, maar weet ik alsnog niet of het werkt. Ik vond
 
 
 #### --Isis Korevaar--
-
+Het lastige aan dit project was dat sommige onderdelen heel nieuw voor ons waren waardoor het moeilijk te begrijpen was. Verder hebben we de plank te laat in elkaar gezet om voor de arduino, waar ik de baas over was, te beginnen. Door onze communicatie en planning problemen is het moeilijk geweest om het op tijd af te krijgen, dit komt volgens mijn mening ook omdat ons groepje voor het mooie net iets te groot was. Verder vond ik het een erg leuk en uitdagend project om aan te werken. Tijdens het coderen en in elkaar zetten van de plank heb ik erg veel plezier gehad. 
 
 #### --Remco Bechtold--
 
