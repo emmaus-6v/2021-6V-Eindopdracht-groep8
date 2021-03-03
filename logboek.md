@@ -1,5 +1,14 @@
 # Logboek
 
+Datum in oktober 
+Leerling: Isis Korevaar 
+Uitgevoerd: ideeën bedacht voor de knikkerbaan, in de vorm van een flipperkast.
+
+---
+Datum in november 
+Leerling: Isis Korevaar
+
+---
 Datum: 22-02-2021
 Leerling: Thom van Dijk
 Uitgevoerd: Code proberen te begrijpen van de widget
@@ -13,6 +22,11 @@ Uitgevoerd: erachter komen hoe de server en de database werken
 Datum: 09-02-2021
 Leerling: Edwin Cheng + Roel Linde
 Uitgevoerd: server account + database/server uitlegvideos
+
+---
+Datum 18-02-2021
+Leerling: Remco bechtold + isis koreaar
+Uitgevoerd: Materialen opgehaald en oplossingen bedacht voor sommige problemen.
 
 ---
 Datum 21-02-2021
@@ -46,6 +60,18 @@ Uitgevoerd: Code WiFi verbinding van de Arduino.
 
 ---
 Datum 28-02-2021
+Leerling: Isis Korevaar met behulp van Remco Bechtold 
+Uitgevoerd: Code geschreven voor de Servo motor
+
+---
+datum 01-03-2021
+Leerling: Isis Korevaar met behulp van Remco Bechtold 
+Uitgevoerd: Code geschreven voor de IR BeamBreak sensor. 
+
+---
+Datum 02-02-2021
+Leerling: Isis Korevaar
+Uitgevoerd: Verschillende Arduino codes samengevoegd en uitgebreid. 
 
 ---
 Datum 02-03-2021
@@ -60,3 +86,6 @@ Uitgevoerd: Filmpjes van widget, server en database gekeken en dit allemaal vera
 Achtergrond veranderen en vergroten. Database tabellen veranderd en weggehaald. Server verbinden met de bijbehorende widget en database. 
 
 ---
+Datum 03-03-2021
+Leerling: Remco Bechtold + Isis Korevaar
+Uitgevoerd: De laatste fout uit de code van de arduino gehaald. De arduio geinstalleerd op de plank. De nieuwe lampjes opgehaald en geinstalleerd op de arduino. 
