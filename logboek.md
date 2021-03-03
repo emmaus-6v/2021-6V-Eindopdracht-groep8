@@ -19,7 +19,7 @@ Uitgevoerd: server account + database/server uitlegvideos
 
 Datum: 27-02-2021
 Leerling: Edwin Cheng
-Uitgevoerd: Code Arduino LEDs
+Uitgevoerd: Code voor Arduino gemaakt. 4 LEDs aangesloten met die met een if en else statement reageren op een knop die later reageert met de infrarood sensor. 
 
 ---
 
@@ -37,18 +37,20 @@ Uitgevoerd: database, queries proberen.
 
 Datum 28-02-2021
 Leerling: Edwin Cheng
-Uitgevoerd: Code Arduino WiFi verbinding
+Uitgevoerd: Code WiFi verbinding van de Arduino.
 
 ---
 
 Datum 02-03-2021
 Leerling: Junda Qiu
-Uitgevoerd: Widget, server en database aangepast
+Uitgevoerd: Filmpjes van widget, server en database gekeken en dit allemaal veranderd. Functies veranderen en weghalen van de widget voor onze knikkerbaan.
+Achtergrond veranderen en vergroten. Database tabellen veranderd en weggehaald. Server verbinden met de bijbehorende widget en database. 
 
 ---
 
 Datum: 02-03-2021
 Leerling: Edwin Cheng
-Uitgevoerd: Widget, server en database aangepast
+Uitgevoerd: Filmpjes van widget, server en database gekeken en dit allemaal veranderd. Functies veranderen en weghalen van de widget voor onze knikkerbaan.
+Achtergrond veranderen en vergroten. Database tabellen veranderd en weggehaald. Server verbinden met de bijbehorende widget en database. 
 
 ---
